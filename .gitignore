@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Preserve private notebook archives locally; publish the reproducible run artifacts.
+/Results/gru_attention/**/gru_attention_original.ipynb
+!/Results/gru_attention/**/training.log

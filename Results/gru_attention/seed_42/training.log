@@ -1,0 +1,46 @@
+GRU + attention baseline | base 199b0c111b745b3dbf1a9f093ea05f1a2f23105a | device cpu | seed 42
+Splits: {'train': 11514, 'dev': 2033, 'test': 2974} | vocab 5304 | intents 60 | tags 221
+Parameters: 1,019,673 / 20,000,000 | selection: mean(dev intent accuracy, dev slot micro F1)
+epoch 01 | train loss 3.6290 | dev loss 2.0173 | dev intent 72.90% | dev slot F1 23.35% | mean 48.12 | lr 0.003 | 14.4s | saved best
+epoch 02 | train loss 1.9028 | dev loss 1.4699 | dev intent 79.29% | dev slot F1 45.39% | mean 62.34 | lr 0.003 | 13.2s | saved best
+epoch 03 | train loss 1.4647 | dev loss 1.2928 | dev intent 80.91% | dev slot F1 50.13% | mean 65.52 | lr 0.003 | 14.6s | saved best
+epoch 04 | train loss 1.2175 | dev loss 1.2107 | dev intent 82.44% | dev slot F1 54.19% | mean 68.32 | lr 0.003 | 16.7s | saved best
+epoch 05 | train loss 1.0522 | dev loss 1.1886 | dev intent 82.83% | dev slot F1 58.82% | mean 70.83 | lr 0.003 | 13.2s | saved best
+epoch 06 | train loss 0.9398 | dev loss 1.1566 | dev intent 83.77% | dev slot F1 59.47% | mean 71.62 | lr 0.003 | 7.9s | saved best
+epoch 07 | train loss 0.8470 | dev loss 1.1186 | dev intent 83.96% | dev slot F1 61.82% | mean 72.89 | lr 0.003 | 13.8s | saved best
+epoch 08 | train loss 0.7670 | dev loss 1.1622 | dev intent 84.01% | dev slot F1 62.50% | mean 73.26 | lr 0.003 | 12.5s | saved best
+epoch 09 | train loss 0.7066 | dev loss 1.1522 | dev intent 84.16% | dev slot F1 64.21% | mean 74.19 | lr 0.003 | 12.3s | saved best
+epoch 10 | train loss 0.6679 | dev loss 1.1527 | dev intent 84.26% | dev slot F1 64.25% | mean 74.25 | lr 0.003 | 12.1s | saved best
+epoch 11 | train loss 0.6221 | dev loss 1.1585 | dev intent 84.41% | dev slot F1 65.03% | mean 74.72 | lr 0.003 | 12.3s | saved best
+epoch 12 | train loss 0.5841 | dev loss 1.1613 | dev intent 84.70% | dev slot F1 65.97% | mean 75.34 | lr 0.003 | 12.2s | saved best
+epoch 13 | train loss 0.5577 | dev loss 1.1968 | dev intent 84.26% | dev slot F1 66.91% | mean 75.59 | lr 0.003 | 13.0s | saved best
+epoch 14 | train loss 0.5365 | dev loss 1.2042 | dev intent 84.55% | dev slot F1 67.00% | mean 75.78 | lr 0.003 | 10.1s | saved best
+epoch 15 | train loss 0.5151 | dev loss 1.2424 | dev intent 84.55% | dev slot F1 68.16% | mean 76.36 | lr 0.003 | 9.5s | saved best
+epoch 16 | train loss 0.5022 | dev loss 1.2248 | dev intent 84.41% | dev slot F1 67.35% | mean 75.88 | lr 0.003 | 8.8s
+epoch 17 | train loss 0.4818 | dev loss 1.2218 | dev intent 84.46% | dev slot F1 67.75% | mean 76.10 | lr 0.003 | 7.7s
+epoch 18 | train loss 0.4639 | dev loss 1.2142 | dev intent 84.75% | dev slot F1 67.80% | mean 76.28 | lr 0.003 | 7.2s
+epoch 19 | train loss 0.4179 | dev loss 1.2177 | dev intent 85.34% | dev slot F1 68.47% | mean 76.91 | lr 0.0015 | 6.7s | saved best
+epoch 20 | train loss 0.3894 | dev loss 1.2328 | dev intent 84.70% | dev slot F1 69.38% | mean 77.04 | lr 0.0015 | 6.7s | saved best
+epoch 21 | train loss 0.3783 | dev loss 1.2235 | dev intent 84.70% | dev slot F1 69.73% | mean 77.22 | lr 0.0015 | 6.8s | saved best
+epoch 22 | train loss 0.3609 | dev loss 1.2348 | dev intent 84.95% | dev slot F1 69.73% | mean 77.34 | lr 0.0015 | 6.7s | saved best
+epoch 23 | train loss 0.3533 | dev loss 1.2334 | dev intent 85.39% | dev slot F1 70.20% | mean 77.79 | lr 0.0015 | 6.7s | saved best
+epoch 24 | train loss 0.3458 | dev loss 1.2327 | dev intent 85.39% | dev slot F1 70.98% | mean 78.19 | lr 0.0015 | 6.6s | saved best
+epoch 25 | train loss 0.3365 | dev loss 1.2346 | dev intent 85.00% | dev slot F1 70.61% | mean 77.80 | lr 0.0015 | 6.5s
+epoch 26 | train loss 0.3299 | dev loss 1.2182 | dev intent 85.19% | dev slot F1 71.95% | mean 78.57 | lr 0.0015 | 6.6s | saved best
+epoch 27 | train loss 0.3186 | dev loss 1.2245 | dev intent 85.44% | dev slot F1 71.70% | mean 78.57 | lr 0.0015 | 6.9s
+epoch 28 | train loss 0.3214 | dev loss 1.2430 | dev intent 84.90% | dev slot F1 72.19% | mean 78.55 | lr 0.0015 | 8.0s
+epoch 29 | train loss 0.3023 | dev loss 1.2583 | dev intent 85.39% | dev slot F1 71.40% | mean 78.40 | lr 0.0015 | 7.1s
+epoch 30 | train loss 0.2941 | dev loss 1.2424 | dev intent 85.19% | dev slot F1 72.22% | mean 78.71 | lr 0.00075 | 7.5s | saved best
+epoch 31 | train loss 0.2862 | dev loss 1.2390 | dev intent 85.54% | dev slot F1 71.93% | mean 78.73 | lr 0.00075 | 7.7s | saved best
+epoch 32 | train loss 0.2836 | dev loss 1.2461 | dev intent 85.49% | dev slot F1 72.17% | mean 78.83 | lr 0.00075 | 8.1s | saved best
+epoch 33 | train loss 0.2749 | dev loss 1.2494 | dev intent 85.29% | dev slot F1 72.35% | mean 78.82 | lr 0.00075 | 7.5s
+epoch 34 | train loss 0.2690 | dev loss 1.2430 | dev intent 85.59% | dev slot F1 72.42% | mean 79.00 | lr 0.00075 | 7.4s | saved best
+epoch 35 | train loss 0.2680 | dev loss 1.2509 | dev intent 85.29% | dev slot F1 72.77% | mean 79.03 | lr 0.00075 | 7.5s | saved best
+epoch 36 | train loss 0.2624 | dev loss 1.2633 | dev intent 85.10% | dev slot F1 72.81% | mean 78.95 | lr 0.00075 | 7.3s
+epoch 37 | train loss 0.2570 | dev loss 1.2543 | dev intent 85.64% | dev slot F1 72.33% | mean 78.98 | lr 0.00075 | 6.8s
+epoch 38 | train loss 0.2531 | dev loss 1.2582 | dev intent 85.24% | dev slot F1 73.12% | mean 79.18 | lr 0.00075 | 6.6s | saved best
+epoch 39 | train loss 0.2524 | dev loss 1.2567 | dev intent 85.49% | dev slot F1 73.18% | mean 79.33 | lr 0.00075 | 6.6s | saved best
+epoch 40 | train loss 0.2475 | dev loss 1.2640 | dev intent 85.34% | dev slot F1 73.00% | mean 79.17 | lr 0.00075 | 6.6s
+Best epoch 39 | score 79.33 | checkpoint C:\Users\Administrator\OneDrive\文档\ChatGPT\SC4002\Results\gru_attention\seed_42\best.pt
+Final validation: intent 85.49% | slot micro F1 73.18%
+Final test: intent 83.96% | slot micro F1 70.44%

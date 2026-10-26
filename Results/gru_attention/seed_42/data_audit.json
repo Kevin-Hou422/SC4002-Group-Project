@@ -1,0 +1,17 @@
+{
+  "train": {
+    "examples": 11514,
+    "sha256": "a626baa696fd107813cd953de529aba95a0daa658482e89f9e488c1e49ce6407",
+    "oov_token_pct": 0.0
+  },
+  "dev": {
+    "examples": 2033,
+    "sha256": "61236c898d687f94b544fa361921fac96b34a26688a4ed1e0b935b4904ad7102",
+    "oov_token_pct": 3.323306116602206
+  },
+  "test": {
+    "examples": 2974,
+    "sha256": "384fa7c4ae3e8d3b1223373662d84d9b44e665b2f5f7dc851457928f8c8bbc29",
+    "oov_token_pct": 3.5145659782126484
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "python": "3.12.10",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.5.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "device": "cpu",
+  "threads": 4,
+  "git_base_commit": "199b0c111b745b3dbf1a9f093ea05f1a2f23105a",
+  "created_at_utc": "2026-10-25T07:03:32.770211+00:00",
+  "training_source_sha256": "d3fbed81f002068deee1c746bb00b86976e01d498a21eda0467def1a4e6171fd",
+  "packaged_source_sha256": "335f350e8f9953d585ffacdda12753420895fedfb66eafbf0f86deaa37ff44d9"
+}

@@ -1,0 +1,1042 @@
+[
+  {
+    "epoch": 1,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 2.164659711166204,
+      "slot_loss": 1.4643815698296763,
+      "loss": 3.6290412809958803
+    },
+    "dev": {
+      "intent_loss": 1.0367589495596015,
+      "slot_loss": 0.9805227428260599,
+      "loss": 2.0172816923856614,
+      "intent_accuracy": 72.89719626168224,
+      "slot_micro_f1": 23.347701149425287,
+      "slot_precision": 42.09844559585492,
+      "slot_recall": 16.153081510934392,
+      "joint_exact_match": 25.774717166748648,
+      "slot_tp": 325,
+      "slot_fp": 447,
+      "slot_fn": 1687,
+      "examples": 2033
+    },
+    "selection_score": 48.122448705553765,
+    "epoch_seconds": 14.430817399988882,
+    "elapsed_seconds": 14.432612000004156
+  },
+  {
+    "epoch": 2,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.9754521460588637,
+      "slot_loss": 0.927381749035441,
+      "loss": 1.9028338950943047
+    },
+    "dev": {
+      "intent_loss": 0.7799948841787827,
+      "slot_loss": 0.6898936346576713,
+      "loss": 1.4698885188364539,
+      "intent_accuracy": 79.29168716182981,
+      "slot_micro_f1": 45.3872437357631,
+      "slot_precision": 53.13333333333333,
+      "slot_recall": 39.612326043737575,
+      "joint_exact_match": 37.62911952779144,
+      "slot_tp": 797,
+      "slot_fp": 703,
+      "slot_fn": 1215,
+      "examples": 2033
+    },
+    "selection_score": 62.33946544879646,
+    "epoch_seconds": 13.152940300002228,
+    "elapsed_seconds": 27.62510960001964
+  },
+  {
+    "epoch": 3,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.7085109940622133,
+      "slot_loss": 0.7561727523884447,
+      "loss": 1.4646837464506581
+    },
+    "dev": {
+      "intent_loss": 0.6975876233053512,
+      "slot_loss": 0.595210345016648,
+      "loss": 1.2927979683219992,
+      "intent_accuracy": 80.9149040826365,
+      "slot_micro_f1": 50.12840267077555,
+      "slot_precision": 51.85972369819341,
+      "slot_recall": 48.508946322067594,
+      "joint_exact_match": 42.843089030988686,
+      "slot_tp": 976,
+      "slot_fp": 906,
+      "slot_fn": 1036,
+      "examples": 2033
+    },
+    "selection_score": 65.52165337670603,
+    "epoch_seconds": 14.551186299999245,
+    "elapsed_seconds": 42.19442620000336
+  },
+  {
+    "epoch": 4,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.5539468133720814,
+      "slot_loss": 0.6635526430127355,
+      "loss": 1.217499456384817
+    },
+    "dev": {
+      "intent_loss": 0.6726290046494404,
+      "slot_loss": 0.5380674465357309,
+      "loss": 1.2106964511851714,
+      "intent_accuracy": 82.43974422036399,
+      "slot_micro_f1": 54.193548387096776,
+      "slot_precision": 54.112983151635284,
+      "slot_recall": 54.27435387673956,
+      "joint_exact_match": 46.827348745696014,
+      "slot_tp": 1092,
+      "slot_fp": 926,
+      "slot_fn": 920,
+      "examples": 2033
+    },
+    "selection_score": 68.31664630373038,
+    "epoch_seconds": 16.672897499985993,
+    "elapsed_seconds": 58.892735500005074
+  },
+  {
+    "epoch": 5,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.44593158805351696,
+      "slot_loss": 0.6063054600662416,
+      "loss": 1.0522370481197587
+    },
+    "dev": {
+      "intent_loss": 0.6768934769227009,
+      "slot_loss": 0.5117178499835249,
+      "loss": 1.1886113269062257,
+      "intent_accuracy": 82.83325135268076,
+      "slot_micro_f1": 58.82058970514743,
+      "slot_precision": 59.14572864321608,
+      "slot_recall": 58.49900596421471,
+      "joint_exact_match": 49.9754058042302,
+      "slot_tp": 1177,
+      "slot_fp": 813,
+      "slot_fn": 835,
+      "examples": 2033
+    },
+    "selection_score": 70.82692052891409,
+    "epoch_seconds": 13.168961400020635,
+    "elapsed_seconds": 72.08021529999678
+  },
+  {
+    "epoch": 6,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.37785966136046784,
+      "slot_loss": 0.5619843837916806,
+      "loss": 0.9398440451521484
+    },
+    "dev": {
+      "intent_loss": 0.6675830782192772,
+      "slot_loss": 0.48901183736723897,
+      "loss": 1.156594915586516,
+      "intent_accuracy": 83.76783079193311,
+      "slot_micro_f1": 59.472776545947276,
+      "slot_precision": 58.96433805569126,
+      "slot_recall": 59.990059642147116,
+      "joint_exact_match": 51.401869158878505,
+      "slot_tp": 1207,
+      "slot_fp": 840,
+      "slot_fn": 805,
+      "examples": 2033
+    },
+    "selection_score": 71.6203036689402,
+    "epoch_seconds": 7.930601100000786,
+    "elapsed_seconds": 80.02192820000346
+  },
+  {
+    "epoch": 7,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.3197847561577821,
+      "slot_loss": 0.5271664505295266,
+      "loss": 0.8469512066873087
+    },
+    "dev": {
+      "intent_loss": 0.6472052285311202,
+      "slot_loss": 0.47136722509575135,
+      "loss": 1.1185724536268715,
+      "intent_accuracy": 83.96458435809149,
+      "slot_micro_f1": 61.81906614785992,
+      "slot_precision": 60.523809523809526,
+      "slot_recall": 63.17097415506958,
+      "joint_exact_match": 52.18888342351205,
+      "slot_tp": 1271,
+      "slot_fp": 829,
+      "slot_fn": 741,
+      "examples": 2033
+    },
+    "selection_score": 72.8918252529757,
+    "epoch_seconds": 13.753709300013725,
+    "elapsed_seconds": 93.78626419999637
+  },
+  {
+    "epoch": 8,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.27178920306160526,
+      "slot_loss": 0.4952165161231018,
+      "loss": 0.7670057191847071
+    },
+    "dev": {
+      "intent_loss": 0.7014464273924201,
+      "slot_loss": 0.4607721916704734,
+      "loss": 1.1622186190628936,
+      "intent_accuracy": 84.01377274963109,
+      "slot_micro_f1": 62.503061474406074,
+      "slot_precision": 61.61274746499276,
+      "slot_recall": 63.41948310139165,
+      "joint_exact_match": 53.07427447122479,
+      "slot_tp": 1276,
+      "slot_fp": 795,
+      "slot_fn": 736,
+      "examples": 2033
+    },
+    "selection_score": 73.25841711201858,
+    "epoch_seconds": 12.498113300011028,
+    "elapsed_seconds": 106.2998351000133
+  },
+  {
+    "epoch": 9,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.24040489283642547,
+      "slot_loss": 0.4662252159213862,
+      "loss": 0.7066301087578117
+    },
+    "dev": {
+      "intent_loss": 0.7042116003557197,
+      "slot_loss": 0.44800403252587656,
+      "loss": 1.1522156328815962,
+      "intent_accuracy": 84.16133792424988,
+      "slot_micro_f1": 64.21338602123981,
+      "slot_precision": 63.819342169857634,
+      "slot_recall": 64.61232604373757,
+      "joint_exact_match": 54.4515494343335,
+      "slot_tp": 1300,
+      "slot_fp": 737,
+      "slot_fn": 712,
+      "examples": 2033
+    },
+    "selection_score": 74.18736197274484,
+    "epoch_seconds": 12.271544600022025,
+    "elapsed_seconds": 118.5858986999956
+  },
+  {
+    "epoch": 10,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.22304819469156212,
+      "slot_loss": 0.44485567608245585,
+      "loss": 0.6679038707740179
+    },
+    "dev": {
+      "intent_loss": 0.7170167697865683,
+      "slot_loss": 0.4356620327703353,
+      "loss": 1.1526788025569035,
+      "intent_accuracy": 84.25971470732907,
+      "slot_micro_f1": 64.24594529169693,
+      "slot_precision": 62.623879188296364,
+      "slot_recall": 65.95427435387674,
+      "joint_exact_match": 54.894244958189866,
+      "slot_tp": 1327,
+      "slot_fp": 792,
+      "slot_fn": 685,
+      "examples": 2033
+    },
+    "selection_score": 74.252829999513,
+    "epoch_seconds": 12.072068799985573,
+    "elapsed_seconds": 130.67479980000644
+  },
+  {
+    "epoch": 11,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.1958221203780369,
+      "slot_loss": 0.4262413872847042,
+      "loss": 0.6220635076627411
+    },
+    "dev": {
+      "intent_loss": 0.7252287544819503,
+      "slot_loss": 0.4332541429416752,
+      "loss": 1.1584828974236254,
+      "intent_accuracy": 84.40727988194786,
+      "slot_micro_f1": 65.03275903906818,
+      "slot_precision": 63.53722143195827,
+      "slot_recall": 66.60039761431412,
+      "joint_exact_match": 56.123954746679786,
+      "slot_tp": 1340,
+      "slot_fp": 769,
+      "slot_fn": 672,
+      "examples": 2033
+    },
+    "selection_score": 74.72001946050801,
+    "epoch_seconds": 12.308882099983748,
+    "elapsed_seconds": 142.99690130000818
+  },
+  {
+    "epoch": 12,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.17451403808610316,
+      "slot_loss": 0.40958680978188494,
+      "loss": 0.5841008478679881
+    },
+    "dev": {
+      "intent_loss": 0.7347258905208117,
+      "slot_loss": 0.426557693073878,
+      "loss": 1.1612835835946898,
+      "intent_accuracy": 84.70241023118544,
+      "slot_micro_f1": 65.972894482091,
+      "slot_precision": 64.29245283018868,
+      "slot_recall": 67.74353876739562,
+      "joint_exact_match": 56.46827348745696,
+      "slot_tp": 1363,
+      "slot_fp": 757,
+      "slot_fn": 649,
+      "examples": 2033
+    },
+    "selection_score": 75.33765235663822,
+    "epoch_seconds": 12.237974599993322,
+    "elapsed_seconds": 155.24620100000175
+  },
+  {
+    "epoch": 13,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.16090509940352274,
+      "slot_loss": 0.3968153681725851,
+      "loss": 0.5577204675761078
+    },
+    "dev": {
+      "intent_loss": 0.7645775663753008,
+      "slot_loss": 0.43221613032618733,
+      "loss": 1.196793696701488,
+      "intent_accuracy": 84.25971470732907,
+      "slot_micro_f1": 66.91033138401559,
+      "slot_precision": 65.63097514340345,
+      "slot_recall": 68.24055666003976,
+      "joint_exact_match": 56.517461878996556,
+      "slot_tp": 1373,
+      "slot_fp": 719,
+      "slot_fn": 639,
+      "examples": 2033
+    },
+    "selection_score": 75.58502304567233,
+    "epoch_seconds": 12.968054600001778,
+    "elapsed_seconds": 168.23160620001727
+  },
+  {
+    "epoch": 14,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.15898646479765324,
+      "slot_loss": 0.37748479201675045,
+      "loss": 0.5364712568144037
+    },
+    "dev": {
+      "intent_loss": 0.7653215373318828,
+      "slot_loss": 0.43885400505914435,
+      "loss": 1.2041755423910272,
+      "intent_accuracy": 84.55484505656665,
+      "slot_micro_f1": 66.99776508567172,
+      "slot_precision": 66.94789081885857,
+      "slot_recall": 67.04771371769384,
+      "joint_exact_match": 56.86178061977373,
+      "slot_tp": 1349,
+      "slot_fp": 666,
+      "slot_fn": 663,
+      "examples": 2033
+    },
+    "selection_score": 75.77630507111918,
+    "epoch_seconds": 10.083851599978516,
+    "elapsed_seconds": 178.32684779999545
+  },
+  {
+    "epoch": 15,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.14371420091818207,
+      "slot_loss": 0.3714037111178261,
+      "loss": 0.5151179120360082
+    },
+    "dev": {
+      "intent_loss": 0.8135742904573489,
+      "slot_loss": 0.4288139246887642,
+      "loss": 1.242388215146113,
+      "intent_accuracy": 84.55484505656665,
+      "slot_micro_f1": 68.15724815724816,
+      "slot_precision": 67.3955296404276,
+      "slot_recall": 68.93638170974155,
+      "joint_exact_match": 57.05853418593212,
+      "slot_tp": 1387,
+      "slot_fp": 671,
+      "slot_fn": 625,
+      "examples": 2033
+    },
+    "selection_score": 76.3560466069074,
+    "epoch_seconds": 9.537864800018724,
+    "elapsed_seconds": 187.87883600001805
+  },
+  {
+    "epoch": 16,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.1404308973552246,
+      "slot_loss": 0.36172297452857494,
+      "loss": 0.5021538718837996
+    },
+    "dev": {
+      "intent_loss": 0.8065226789595046,
+      "slot_loss": 0.4183152538551213,
+      "loss": 1.224837932814626,
+      "intent_accuracy": 84.40727988194786,
+      "slot_micro_f1": 67.34645482570548,
+      "slot_precision": 64.39909297052154,
+      "slot_recall": 70.57654075546719,
+      "joint_exact_match": 57.3536645351697,
+      "slot_tp": 1420,
+      "slot_fp": 785,
+      "slot_fn": 592,
+      "examples": 2033
+    },
+    "selection_score": 75.87686735382667,
+    "epoch_seconds": 8.775019799999427,
+    "elapsed_seconds": 196.66512930000317
+  },
+  {
+    "epoch": 17,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.13307265011214828,
+      "slot_loss": 0.34874457988273344,
+      "loss": 0.48181722999488175
+    },
+    "dev": {
+      "intent_loss": 0.795430300802183,
+      "slot_loss": 0.42632595245945065,
+      "loss": 1.2217562532616337,
+      "intent_accuracy": 84.45646827348746,
+      "slot_micro_f1": 67.74654597427346,
+      "slot_precision": 65.05032021957913,
+      "slot_recall": 70.67594433399603,
+      "joint_exact_match": 56.96015740285293,
+      "slot_tp": 1422,
+      "slot_fp": 764,
+      "slot_fn": 590,
+      "examples": 2033
+    },
+    "selection_score": 76.10150712388045,
+    "epoch_seconds": 7.718993100017542,
+    "elapsed_seconds": 204.38594530001865
+  },
+  {
+    "epoch": 18,
+    "learning_rate": 0.003,
+    "train": {
+      "intent_loss": 0.124433515170537,
+      "slot_loss": 0.33946670338669205,
+      "loss": 0.46390021855722907
+    },
+    "dev": {
+      "intent_loss": 0.7843578037697285,
+      "slot_loss": 0.4298783132827499,
+      "loss": 1.2142361170524785,
+      "intent_accuracy": 84.75159862272504,
+      "slot_micro_f1": 67.79985635623653,
+      "slot_precision": 65.4041570438799,
+      "slot_recall": 70.37773359840955,
+      "joint_exact_match": 57.64879488440728,
+      "slot_tp": 1416,
+      "slot_fp": 749,
+      "slot_fn": 596,
+      "examples": 2033
+    },
+    "selection_score": 76.27572748948079,
+    "epoch_seconds": 7.164243799983524,
+    "elapsed_seconds": 211.55148510000436
+  },
+  {
+    "epoch": 19,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.09802968592740646,
+      "slot_loss": 0.3198888658776768,
+      "loss": 0.41791855180508325
+    },
+    "dev": {
+      "intent_loss": 0.7942314731095498,
+      "slot_loss": 0.42347705465510793,
+      "loss": 1.2177085277646578,
+      "intent_accuracy": 85.3418593212002,
+      "slot_micro_f1": 68.47457627118644,
+      "slot_precision": 66.7610953729934,
+      "slot_recall": 70.27833001988071,
+      "joint_exact_match": 58.780127889818004,
+      "slot_tp": 1414,
+      "slot_fp": 704,
+      "slot_fn": 598,
+      "examples": 2033
+    },
+    "selection_score": 76.90821779619333,
+    "epoch_seconds": 6.739861500012921,
+    "elapsed_seconds": 218.29306590001215
+  },
+  {
+    "epoch": 20,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.08753190861925268,
+      "slot_loss": 0.3018435409679162,
+      "loss": 0.3893754495871689
+    },
+    "dev": {
+      "intent_loss": 0.8127140632944628,
+      "slot_loss": 0.4201316033495205,
+      "loss": 1.2328456666439833,
+      "intent_accuracy": 84.70241023118544,
+      "slot_micro_f1": 69.37880633373935,
+      "slot_precision": 68.03631151457239,
+      "slot_recall": 70.77534791252485,
+      "joint_exact_match": 59.173635022134775,
+      "slot_tp": 1424,
+      "slot_fp": 669,
+      "slot_fn": 588,
+      "examples": 2033
+    },
+    "selection_score": 77.04060828246239,
+    "epoch_seconds": 6.665772800013656,
+    "elapsed_seconds": 224.9692527000152
+  },
+  {
+    "epoch": 21,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.0863457928882905,
+      "slot_loss": 0.2919698180095829,
+      "loss": 0.37831561089787336
+    },
+    "dev": {
+      "intent_loss": 0.8019160420156968,
+      "slot_loss": 0.42153628867734827,
+      "loss": 1.223452330693045,
+      "intent_accuracy": 84.70241023118544,
+      "slot_micro_f1": 69.73105134474328,
+      "slot_precision": 68.62367661212704,
+      "slot_recall": 70.87475149105367,
+      "joint_exact_match": 59.27201180521397,
+      "slot_tp": 1426,
+      "slot_fp": 652,
+      "slot_fn": 586,
+      "examples": 2033
+    },
+    "selection_score": 77.21673078796437,
+    "epoch_seconds": 6.841884099994786,
+    "elapsed_seconds": 231.82109610000043
+  },
+  {
+    "epoch": 22,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.07698711854872738,
+      "slot_loss": 0.2839088107818124,
+      "loss": 0.36089592933053977
+    },
+    "dev": {
+      "intent_loss": 0.8190396840327254,
+      "slot_loss": 0.41579708756787986,
+      "loss": 1.2348367716006052,
+      "intent_accuracy": 84.94835218888342,
+      "slot_micro_f1": 69.73012399708242,
+      "slot_precision": 68.25321275583056,
+      "slot_recall": 71.27236580516899,
+      "joint_exact_match": 59.321200196753566,
+      "slot_tp": 1434,
+      "slot_fp": 667,
+      "slot_fn": 578,
+      "examples": 2033
+    },
+    "selection_score": 77.33923809298292,
+    "epoch_seconds": 6.707712999981595,
+    "elapsed_seconds": 238.5390863000066
+  },
+  {
+    "epoch": 23,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.07267277786016091,
+      "slot_loss": 0.2805780919830053,
+      "loss": 0.3532508698431662
+    },
+    "dev": {
+      "intent_loss": 0.8172039375244193,
+      "slot_loss": 0.4162381575666309,
+      "loss": 1.2334420950910503,
+      "intent_accuracy": 85.39104771273979,
+      "slot_micro_f1": 70.19579405366207,
+      "slot_precision": 68.32941176470588,
+      "slot_recall": 72.16699801192843,
+      "joint_exact_match": 59.96064928676832,
+      "slot_tp": 1452,
+      "slot_fp": 673,
+      "slot_fn": 560,
+      "examples": 2033
+    },
+    "selection_score": 77.79342088320092,
+    "epoch_seconds": 6.66246909997426,
+    "elapsed_seconds": 245.21241259999806
+  },
+  {
+    "epoch": 24,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.07531679455570738,
+      "slot_loss": 0.2705249894848256,
+      "loss": 0.345841784040533
+    },
+    "dev": {
+      "intent_loss": 0.8184841163218226,
+      "slot_loss": 0.4141862174393864,
+      "loss": 1.232670333761209,
+      "intent_accuracy": 85.39104771273979,
+      "slot_micro_f1": 70.98029676477742,
+      "slot_precision": 69.50929013816103,
+      "slot_recall": 72.51491053677933,
+      "joint_exact_match": 60.944417117560256,
+      "slot_tp": 1459,
+      "slot_fp": 640,
+      "slot_fn": 553,
+      "examples": 2033
+    },
+    "selection_score": 78.1856722387586,
+    "epoch_seconds": 6.603695300000254,
+    "elapsed_seconds": 251.82620780001162
+  },
+  {
+    "epoch": 25,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.07217386623125265,
+      "slot_loss": 0.2643309498191484,
+      "loss": 0.33650481605040106
+    },
+    "dev": {
+      "intent_loss": 0.8165285295591059,
+      "slot_loss": 0.4180454961820005,
+      "loss": 1.2345740257411064,
+      "intent_accuracy": 84.99754058042302,
+      "slot_micro_f1": 70.60539752005835,
+      "slot_precision": 69.10994764397905,
+      "slot_recall": 72.16699801192843,
+      "joint_exact_match": 60.35415641908509,
+      "slot_tp": 1452,
+      "slot_fp": 649,
+      "slot_fn": 560,
+      "examples": 2033
+    },
+    "selection_score": 77.80146905024068,
+    "epoch_seconds": 6.54806249999092,
+    "elapsed_seconds": 258.3840324000048
+  },
+  {
+    "epoch": 26,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.06669953378881248,
+      "slot_loss": 0.263150663298564,
+      "loss": 0.3298501970873765
+    },
+    "dev": {
+      "intent_loss": 0.8068244359907234,
+      "slot_loss": 0.41138661104762575,
+      "loss": 1.2182110470383491,
+      "intent_accuracy": 85.19429414658141,
+      "slot_micro_f1": 71.94591984548528,
+      "slot_precision": 69.9530516431925,
+      "slot_recall": 74.05566600397614,
+      "joint_exact_match": 61.731431382193804,
+      "slot_tp": 1490,
+      "slot_fp": 640,
+      "slot_fn": 522,
+      "examples": 2033
+    },
+    "selection_score": 78.57010699603335,
+    "epoch_seconds": 6.608401200006483,
+    "elapsed_seconds": 264.9943590000039
+  },
+  {
+    "epoch": 27,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.0647510583535942,
+      "slot_loss": 0.25382376666006656,
+      "loss": 0.31857482501366075
+    },
+    "dev": {
+      "intent_loss": 0.8040537320213018,
+      "slot_loss": 0.42043937913899504,
+      "loss": 1.2244931111602968,
+      "intent_accuracy": 85.44023610427939,
+      "slot_micro_f1": 71.69995129079396,
+      "slot_precision": 70.29608404966571,
+      "slot_recall": 73.1610337972167,
+      "joint_exact_match": 60.944417117560256,
+      "slot_tp": 1472,
+      "slot_fp": 622,
+      "slot_fn": 540,
+      "examples": 2033
+    },
+    "selection_score": 78.57009369753668,
+    "epoch_seconds": 6.920975499990163,
+    "elapsed_seconds": 271.9261945000035
+  },
+  {
+    "epoch": 28,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.06789190216232283,
+      "slot_loss": 0.25353733509736365,
+      "loss": 0.3214292372596865
+    },
+    "dev": {
+      "intent_loss": 0.8214082798521565,
+      "slot_loss": 0.42163122677154996,
+      "loss": 1.2430395066237065,
+      "intent_accuracy": 84.89916379734383,
+      "slot_micro_f1": 72.19369038884813,
+      "slot_precision": 71.06403466538276,
+      "slot_recall": 73.35984095427435,
+      "joint_exact_match": 61.48548942449582,
+      "slot_tp": 1476,
+      "slot_fp": 601,
+      "slot_fn": 536,
+      "examples": 2033
+    },
+    "selection_score": 78.54642709309599,
+    "epoch_seconds": 7.978072600002633,
+    "elapsed_seconds": 279.9059106000059
+  },
+  {
+    "epoch": 29,
+    "learning_rate": 0.0015,
+    "train": {
+      "intent_loss": 0.05720312020079593,
+      "slot_loss": 0.24511109150376872,
+      "loss": 0.30231421170456463
+    },
+    "dev": {
+      "intent_loss": 0.8381397331576012,
+      "slot_loss": 0.42016625860720647,
+      "loss": 1.2583059917648076,
+      "intent_accuracy": 85.39104771273979,
+      "slot_micro_f1": 71.40431724472471,
+      "slot_precision": 69.72998578872573,
+      "slot_recall": 73.1610337972167,
+      "joint_exact_match": 61.190359075258236,
+      "slot_tp": 1472,
+      "slot_fp": 639,
+      "slot_fn": 540,
+      "examples": 2033
+    },
+    "selection_score": 78.39768247873225,
+    "epoch_seconds": 7.050715000019409,
+    "elapsed_seconds": 286.9583978000155
+  },
+  {
+    "epoch": 30,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.05403379625136889,
+      "slot_loss": 0.2400706906894108,
+      "loss": 0.29410448694077973
+    },
+    "dev": {
+      "intent_loss": 0.8263183823373009,
+      "slot_loss": 0.41605503306960395,
+      "loss": 1.2423734154069048,
+      "intent_accuracy": 85.19429414658141,
+      "slot_micro_f1": 72.21816411005601,
+      "slot_precision": 70.78758949880668,
+      "slot_recall": 73.70775347912524,
+      "joint_exact_match": 61.583866207575014,
+      "slot_tp": 1483,
+      "slot_fp": 612,
+      "slot_fn": 529,
+      "examples": 2033
+    },
+    "selection_score": 78.70622912831871,
+    "epoch_seconds": 7.528107099991757,
+    "elapsed_seconds": 294.4886605000065
+  },
+  {
+    "epoch": 31,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.054622578843444486,
+      "slot_loss": 0.23158341689805378,
+      "loss": 0.2862059957414983
+    },
+    "dev": {
+      "intent_loss": 0.8263917403214094,
+      "slot_loss": 0.4126448124175409,
+      "loss": 1.2390365527389502,
+      "intent_accuracy": 85.53861288735858,
+      "slot_micro_f1": 71.92642787996128,
+      "slot_precision": 70.09433962264151,
+      "slot_recall": 73.85685884691848,
+      "joint_exact_match": 61.583866207575014,
+      "slot_tp": 1486,
+      "slot_fp": 634,
+      "slot_fn": 526,
+      "examples": 2033
+    },
+    "selection_score": 78.73252038365993,
+    "epoch_seconds": 7.6707977000041865,
+    "elapsed_seconds": 302.169430000009
+  },
+  {
+    "epoch": 32,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.05487089853527357,
+      "slot_loss": 0.22869431763195536,
+      "loss": 0.2835652161672289
+    },
+    "dev": {
+      "intent_loss": 0.8318189656681693,
+      "slot_loss": 0.4142817493014239,
+      "loss": 1.246100714969593,
+      "intent_accuracy": 85.48942449581898,
+      "slot_micro_f1": 72.17496962332929,
+      "slot_precision": 70.61340941512125,
+      "slot_recall": 73.80715705765408,
+      "joint_exact_match": 61.43630103295622,
+      "slot_tp": 1485,
+      "slot_fp": 618,
+      "slot_fn": 527,
+      "examples": 2033
+    },
+    "selection_score": 78.83219705957413,
+    "epoch_seconds": 8.106287500006147,
+    "elapsed_seconds": 310.28737520001596
+  },
+  {
+    "epoch": 33,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.04915367266810642,
+      "slot_loss": 0.22572329119122575,
+      "loss": 0.2748769638593322
+    },
+    "dev": {
+      "intent_loss": 0.8412684675982242,
+      "slot_loss": 0.4081061545430188,
+      "loss": 1.249374622141243,
+      "intent_accuracy": 85.2926709296606,
+      "slot_micro_f1": 72.35379410343161,
+      "slot_precision": 70.41392285983066,
+      "slot_recall": 74.40357852882704,
+      "joint_exact_match": 61.6822429906542,
+      "slot_tp": 1497,
+      "slot_fp": 629,
+      "slot_fn": 515,
+      "examples": 2033
+    },
+    "selection_score": 78.82323251654611,
+    "epoch_seconds": 7.476413299998967,
+    "elapsed_seconds": 317.77555120000034
+  },
+  {
+    "epoch": 34,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.044871303153062356,
+      "slot_loss": 0.22409239400542444,
+      "loss": 0.2689636971584868
+    },
+    "dev": {
+      "intent_loss": 0.834161601715116,
+      "slot_loss": 0.40881530739993494,
+      "loss": 1.2429769091150509,
+      "intent_accuracy": 85.58780127889818,
+      "slot_micro_f1": 72.41545893719807,
+      "slot_precision": 70.44172932330827,
+      "slot_recall": 74.50298210735586,
+      "joint_exact_match": 61.92818494835219,
+      "slot_tp": 1499,
+      "slot_fp": 629,
+      "slot_fn": 513,
+      "examples": 2033
+    },
+    "selection_score": 79.00163010804812,
+    "epoch_seconds": 7.448745399975451,
+    "elapsed_seconds": 325.226405399997
+  },
+  {
+    "epoch": 35,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.04799542803849863,
+      "slot_loss": 0.21999593729067587,
+      "loss": 0.2679913653291745
+    },
+    "dev": {
+      "intent_loss": 0.8396816428987134,
+      "slot_loss": 0.411248092535206,
+      "loss": 1.2509297354339193,
+      "intent_accuracy": 85.2926709296606,
+      "slot_micro_f1": 72.76699029126213,
+      "slot_precision": 71.1100569259962,
+      "slot_recall": 74.50298210735586,
+      "joint_exact_match": 62.17412690605017,
+      "slot_tp": 1499,
+      "slot_fp": 609,
+      "slot_fn": 513,
+      "examples": 2033
+    },
+    "selection_score": 79.02983061046137,
+    "epoch_seconds": 7.461330099991756,
+    "elapsed_seconds": 332.7004700000107
+  },
+  {
+    "epoch": 36,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.04618780714305548,
+      "slot_loss": 0.21617854071853645,
+      "loss": 0.26236634786159196
+    },
+    "dev": {
+      "intent_loss": 0.8507769553753993,
+      "slot_loss": 0.41256203269646,
+      "loss": 1.2633389880718593,
+      "intent_accuracy": 85.09591736350221,
+      "slot_micro_f1": 72.8065923412506,
+      "slot_precision": 71.05014191106906,
+      "slot_recall": 74.6520874751491,
+      "joint_exact_match": 62.07575012297098,
+      "slot_tp": 1502,
+      "slot_fp": 612,
+      "slot_fn": 510,
+      "examples": 2033
+    },
+    "selection_score": 78.95125485237641,
+    "epoch_seconds": 7.26502459999756,
+    "elapsed_seconds": 339.97656010001083
+  },
+  {
+    "epoch": 37,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.04358608389814576,
+      "slot_loss": 0.2134420838019555,
+      "loss": 0.2570281677001013
+    },
+    "dev": {
+      "intent_loss": 0.8423069426418817,
+      "slot_loss": 0.41201868417965376,
+      "loss": 1.2543256268215355,
+      "intent_accuracy": 85.63698967043777,
+      "slot_micro_f1": 72.32810615199035,
+      "slot_precision": 70.2766057196437,
+      "slot_recall": 74.50298210735586,
+      "joint_exact_match": 62.272503689129366,
+      "slot_tp": 1499,
+      "slot_fp": 634,
+      "slot_fn": 513,
+      "examples": 2033
+    },
+    "selection_score": 78.98254791121406,
+    "epoch_seconds": 6.789591499982635,
+    "elapsed_seconds": 346.7680948000052
+  },
+  {
+    "epoch": 38,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.040947347077019663,
+      "slot_loss": 0.21211875378885567,
+      "loss": 0.25306610086587533
+    },
+    "dev": {
+      "intent_loss": 0.845517367666951,
+      "slot_loss": 0.41264770498779163,
+      "loss": 1.2581650726547426,
+      "intent_accuracy": 85.243482538121,
+      "slot_micro_f1": 73.12454479242534,
+      "slot_precision": 71.47603227337447,
+      "slot_recall": 74.85089463220676,
+      "joint_exact_match": 62.07575012297098,
+      "slot_tp": 1506,
+      "slot_fp": 601,
+      "slot_fn": 506,
+      "examples": 2033
+    },
+    "selection_score": 79.18401366527317,
+    "epoch_seconds": 6.642911200004164,
+    "elapsed_seconds": 353.4132684000069
+  },
+  {
+    "epoch": 39,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.04477943748880203,
+      "slot_loss": 0.2076415574068862,
+      "loss": 0.25242099489568826
+    },
+    "dev": {
+      "intent_loss": 0.8414465512950258,
+      "slot_loss": 0.41527963063403883,
+      "loss": 1.2567261819290647,
+      "intent_accuracy": 85.48942449581898,
+      "slot_micro_f1": 73.17904993909866,
+      "slot_precision": 71.76301958910655,
+      "slot_recall": 74.6520874751491,
+      "joint_exact_match": 62.666010821446136,
+      "slot_tp": 1502,
+      "slot_fp": 591,
+      "slot_fn": 510,
+      "examples": 2033
+    },
+    "selection_score": 79.33423721745882,
+    "epoch_seconds": 6.641820899996674,
+    "elapsed_seconds": 360.0655540000007
+  },
+  {
+    "epoch": 40,
+    "learning_rate": 0.00075,
+    "train": {
+      "intent_loss": 0.04340182149008535,
+      "slot_loss": 0.20413938690714586,
+      "loss": 0.2475412083972312
+    },
+    "dev": {
+      "intent_loss": 0.849281983691017,
+      "slot_loss": 0.41469915734481,
+      "loss": 1.263981141035827,
+      "intent_accuracy": 85.3418593212002,
+      "slot_micro_f1": 73.00121506682868,
+      "slot_precision": 71.42177841179267,
+      "slot_recall": 74.6520874751491,
+      "joint_exact_match": 62.37088047220856,
+      "slot_tp": 1502,
+      "slot_fp": 601,
+      "slot_fn": 510,
+      "examples": 2033
+    },
+    "selection_score": 79.17153719401443,
+    "epoch_seconds": 6.641814000002341,
+    "elapsed_seconds": 366.7169068000221
+  }
+]

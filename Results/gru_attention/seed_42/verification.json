@@ -1,0 +1,19 @@
+{
+  "dev": {
+    "prediction_rows": 2033,
+    "original_notebook_metrics": {
+      "intent_acc": 85.49,
+      "slot_f1": 73.18
+    }
+  },
+  "test": {
+    "prediction_rows": 2974,
+    "original_notebook_metrics": {
+      "intent_acc": 83.96,
+      "slot_f1": 70.44
+    }
+  },
+  "best_epoch": 39,
+  "parameter_count": 1019673,
+  "checks_passed": true
+}
