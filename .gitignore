@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project: large / generated files
+Data/glove/
+Results/
+*.pt
